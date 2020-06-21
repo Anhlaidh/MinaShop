@@ -1,5 +1,5 @@
 {
-  "pages": [
+  "pages":[
     "pages/index/index",
     "pages/category/index",
     "pages/goods_list/index",
@@ -15,20 +15,22 @@
     "pages/pay/index",
     "components/SearchInput/SearchInput"
 
-
-  ],"window":{
+     
+  ],
+  "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#eb4450",
-    "navigationBarTitleText": "MinaShop",
+    "navigationBarTitleText": "商店",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
-    "color": "",
-    "selectedColor": "",
-    "backgroundColor": "",
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
     "position": "bottom",
     "borderStyle": "black",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "icons/home.png",
@@ -54,8 +56,16 @@
       }
     ]
   },
-
-  "style": "v2",
+  
   "sitemapLocation": "sitemap.json"
-
 }
+
+
+
+
+
+
+
+
+
+

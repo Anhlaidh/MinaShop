@@ -1,23 +1,20 @@
 //app.js
 App({
   //onLaunch,onShow: options(path,query,scene,shareTicket,referrerInfo(appId,extraData))
-  onLaunch: function (options) {
+  onLaunch: function(options){
+    
+  },
+  onShow: function(options){
 
   },
-  onShow: function (options) {
+  onHide: function(){
 
   },
-  onHide: function () {
-
-  },
-  onError: function (msg) {
+  onError: function(msg){
 
   },
   //options(path,query,isEntryPage)
-  onPageNotFound: function (options) {
-
-  },
-  globalData: {
+  onPageNotFound: function(options){
 
   }
 });
